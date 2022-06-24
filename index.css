@@ -14,37 +14,56 @@
     height: 50vh;
     display: flex;
     flex-direction: column;
+    max-width: 100vw;
   
 }
 .principal {
     display: flex;
     flex-direction: row;
-    height: 100%;
-    z-index: 3;
-    
+    height: 100%;   
 }
 .imgp {
 width: 40vw;
 position: absolute;
+margin: 0px;
+border: 0px;
+z-index: 2;
+}
+.imgpd {
+width: 60vw;
+position: absolute;
+left: 40vw;
+object-fit: fill;
+z-index: 1;
+
 }
 .text {
-width: 60vw;
+width: 55vw;
+position: absolute;
+left: 40vw;
+z-index: 2;
 }
 .imgs {
     display: flex;
     flex-direction: row;
-    position: static;
     bottom: 0px;
     margin: 0px;
     border: 0px;
-    top: 0px;
-    z-index: 1;
-   
+  
 }
 img {
     object-fit: cover;
     width: 33vw;
     height: 50vh;
+}
+#backimagen {
+    width: 100%;
+    height: 50vh;
+
+}
+#frontimagen {
+    width: 100%;
+    
 }
 .as:hover {
     animation: efectp;

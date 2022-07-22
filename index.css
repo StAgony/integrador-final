@@ -128,10 +128,11 @@ img {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+/* En mantenimiento (? 
 .as:not(hover) {
     animation: efectp2;
     animation-duration: 2s;    
-}
+} */
 
 /*----------------------------------------- NAV ----------------------------------------------*/
 .nav {
@@ -208,6 +209,28 @@ img {
     animation-iteration-count: infinite;
     animation-timing-function:cubic-bezier(2, 2, 2, 2)
     
+}
+footer {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.end {
+    height: 100%;
+    width: auto;
+
+}
+.textgaleria, h3 {
+    color: white;
+    font-size: 1.4rem;
+    margin: 10px;
+}
+.introgaleria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 

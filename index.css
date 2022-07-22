@@ -259,7 +259,7 @@ footer {
 
 /*------------------------pide contacto ra-----------------------------*/
 .contacto {
-    background-color: white;
+    background-color: black;
     padding: 5%;
     margin-bottom: 5px;
 
@@ -279,11 +279,15 @@ footer {
     margin: 2%;
     align-items: left;
     text-align: start;
+    color: white;
     
 }
 .redes, a {
     text-decoration: none;
-    color: black;
+    color: white;
+}
+.contacto h2 {
+    color: white;
 }
 /*--------------------------------registro----------------------------------*/
 .introreg {

@@ -232,5 +232,86 @@ footer {
     justify-content: center;
     align-items: center;
 }
+/*----------------------------galeria--------------------------------------------*/
+.galery {
+    display: flex;
+    flex-direction: column;
+}
+.fila {
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+    max width: 100vh;
+    height: 80vh;
+}
+.fila img{
+    height: 100%;
+    width: auto;
+    max-width: 19.6vw;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}   
 
 
+/*------------------------pide contacto ra-----------------------------*/
+.contacto {
+    background-color: white;
+    padding: 5%;
+    margin-bottom: 5px;
+
+}
+.contactoitems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.redes, .directo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: '2';
+    width: 30%;
+    margin: 2%;
+    align-items: left;
+    text-align: start;
+    
+}
+.redes, a {
+    text-decoration: none;
+    color: black;
+}
+/*--------------------------------registro----------------------------------*/
+.introreg {
+    height: auto;
+    padding: 30px;
+    text-align: center;
+}
+.textoreg {
+    color: white;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+.formitems {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 30px;
+}
+.formulario, input {
+    width: 300px;
+    top: 15px;
+    border-radius: 12px;
+}
+#proof {
+    height: 130px;
+}
+label {
+    margin-bottom: 15px;
+}
+#submit {
+    
+}

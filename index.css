@@ -128,6 +128,9 @@ img {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+.text a {
+    text-decoration: underline;
+}
 /* En mantenimiento (? 
 .as:not(hover) {
     animation: efectp2;
@@ -312,6 +315,16 @@ footer {
 label {
     margin-bottom: 15px;
 }
-#submit {
-    
+/*----------------------------------login------------------------------*/
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loginitems {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    margin: 20px;
 }

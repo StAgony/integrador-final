@@ -182,9 +182,6 @@ img {
     flex-direction: row;
     height: 90vh;
 }
-.textointro {
-
-}
 .t1, .t2, .titulo, h1{
     color: white;
     padding: 10px;
@@ -244,7 +241,6 @@ footer {
     display: flex;
     flex-direction: row;
     width: 100vh;
-    max width: 100vh;
     height: 80vh;
 }
 .fila img{

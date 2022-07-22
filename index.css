@@ -145,9 +145,6 @@ img {
     height: 100px;
     align-items: center;
     justify-content: space-between;
-
-
-
 }
 .nav a {
     list-style: none;
@@ -157,8 +154,6 @@ img {
     letter-spacing: 0.3em;
     transition: 0.9s;
     font-size: 1.1em;
-
-
 }
 .nav :hover {
     letter-spacing: 0.3em;
